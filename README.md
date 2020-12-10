@@ -4,7 +4,7 @@ LauraClass
 The owners of General Putnam Motel Diner are creating an app so that their patrons can order their meals as Corona has caused the diner to close its doors to the public. Using the app, customers will be able to place takeout orders. In the future, the management wants to put the app on a tablet so that patrons can order from their seats in the diner (once the diner opens to the public). 
 This API provides a proof of concept (POC) to demonstrate how the Burger Meal is ordered and received by the kitchen staff, and the responds the system generates once an order is received. Once approved by the customer, a new application will be created to include the entire menu. 
 # Authentication 
-Supports PDF, DOC, DOCX, and JPG files. 
+JSON Web Token (JWT)
 # Errors 
 The General Putnam Motel Diner API follows standard HTTP status codes for success or failure of an API call. 
 
