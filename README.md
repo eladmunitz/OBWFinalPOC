@@ -46,8 +46,8 @@ https://api.gpmd.com
 The General Putnam Motel Diner API contains the following resources. 
 ## Meals 
 Meals are how you order food at the General Putnam Motel Diner. 
-## GET/ tableNo.
-This GET is used to get the bill for the customer based on the table number of the customer. The number 99 represents takeout orders. 
+## GET/ tableNo
+This GET is used to get the bill for the customer based on the table number of the customer. The only number available in this API is 99 which represents takeout orders. 
 
 Property	|Data Type|	Description|	Default
 ------|--------|--------|---------
