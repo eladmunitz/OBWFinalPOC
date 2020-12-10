@@ -22,7 +22,7 @@ The General Putnam Motel Diner API follows standard HTTP status codes for succes
 
 
 # Rate Limits 
-The General Putnam Motel Diner API will support sending multiple orders in a single request, with a maximum of 6 orders per request. This is not the case for the POC API
+The General Putnam Motel Diner API will support sending multiple orders in a single request, with a maximum of 6 orders per request. This is not the case for the POC API. The POC API is only for ordering an individual burgermeal.
 # Content Type 
 Accept: application/json 
 Content-Type: application/json 
