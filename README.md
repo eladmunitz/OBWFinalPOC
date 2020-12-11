@@ -73,7 +73,7 @@ curl -X GET "http://URL/tableNo?id=99"
      	"Cost":10.99
   	}
    }
-   "Item2":{
+   "Item2"{
   	"ItemOrdered":{
      	"type":"salad",
      	"Cost":9.50
