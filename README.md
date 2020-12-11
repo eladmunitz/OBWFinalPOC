@@ -3,6 +3,12 @@ LauraClass
 # Introduction 
 The owners of General Putnam Motel Diner are creating an app so that their patrons can order their meals as Corona has caused the diner to close its doors to the public. Using the app, customers will be able to place takeout orders. In the future, the management wants to put the app on a tablet so that patrons can order from their seats in the diner (once the diner opens to the public). 
 This API provides a proof of concept (POC) to demonstrate how the Burger Meal is ordered and received by the kitchen staff, and the responds the system generates once an order is received. Once approved by the customer, a new application will be created to include the entire menu. 
+
+### POC work flow for ordering the burger componant of the burgermeal
+[APIworkFlowDiagram](FlowChart.png)
+ 
+
+
 # Authentication 
 JSON Web Token (JWT)
 # Errors 
@@ -72,8 +78,8 @@ curl -X GET "http://URL/tableNo?id=99"
      	"type":"burgerMeal",
      	"Cost":10.99
   	}
-   }
-   "Item2"{
+   },
+   "Item2":{
   	"ItemOrdered":{
      	"type":"salad",
      	"Cost":9.50
