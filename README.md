@@ -100,7 +100,7 @@ curl -X GET "http://URL/tableNo?id=99"
 Property|	Data Type	|Description	|Default
 ---------|----------|------------|--------
 mealType|	string	|Specifies the type of meal served based on timestamp. Acceptable response: "Breakfast", "Lunch", "Dinner" |	Lunch
-mealCat	|string	|Specifies the meal Category offered. Acceptable response: "appatizers", "main",  "disserts"|	main
+mealCat	|string	|Specifies the meal Category offered. Acceptable response: "appetizers", "main",  "desserts"|	main
 main	|string	|Specifies the main ordered. Only acceptable response: "burgerMeal" (This is just for the POC)	|burgerMeal
 
 ### POST / meal/lunch/burgerMeal/burger Properties
@@ -132,7 +132,7 @@ Size2|	string	|Specifies the size of side2 order. Acceptable response: "small", 
 
 Property	|Data Type	|Description	|Default
 --------|-------|-------|--------
-drinkType|	string	|Specifies the drink type to come with the burger. Can be "coke" or "dietcoke", "sprite" or "none". If "none"- size1 and Ice will be "". |	none
+drinkType|	string	|Specifies the drink type to come with the burger. Can be "Coke" or "Dietcoke", "Sprite" or "none". If "none"- size1 and Ice will be "". |	none
 Size|	string|	Specifies the size of drinkType order. Acceptable response: "small", "large",  ""	|large
 Ice|	string|	Specifies whether drinkType will include ice. Acceptable response: "yes", "no", ""	|yes
 
