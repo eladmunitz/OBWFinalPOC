@@ -6,7 +6,7 @@ This API provides a proof of concept (POC) to demonstrate how one item on the me
 
 
 ### POC work flow for ordering the burger component of the burgermeal
-![APIworkFlowDiagram](FlowChart.png)
+![APIworkFlowDiagram](FlowChart.PNG)
  
 
 
